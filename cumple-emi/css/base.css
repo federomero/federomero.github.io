@@ -1,3 +1,7 @@
+a {
+ color: #E0F084 !important;
+}
+
 @media (max-width : 800px) {
   body {
     width: 100%;
