@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cumple Emi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Federico Romero">
+    <meta charset="UTF-8">
+    <link href="css/base.css" rel="stylesheet" media="screen">
+
+    <link href='http://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+  </head>
+  <body>
+    <div class="information">
+      <h1>¡Te invito a mi cumple!</h1>
+
+      <p class="date">Domingo 27 de setiembre de 12:30 a 15:30 hs</p>
+      <script>
+        var today = new Date();
+        if(today.getFullYear() == 2015 && today.getMonth() == 8 && today.getDate() == 27){
+          var h1 = document.getElementsByTagName('h1')[0];
+          h1.innerHTML = "¡Hoy es mi cumple!";
+
+          var p = document.getElementsByTagName('p')[0];
+          p.innerHTML = "Te espero a las 12:30";
+        }
+      </script>
+
+      <p class="map">Roque Graseras 825 esq. Scoseria<br >Salón de Fiestas Duendes<br><br>
+        <iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.6121079172!2d-56.15101039999998!3d-34.916182599999956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8173b7cd86bf%3A0x6b2fc77403377b9f!2sRoque+Graseras+825%2C+Montevideo!5e0!3m2!1sen!2suy!4v1411247944991"></iframe>
+      </p>
+    </div>
+  </body>
+</html>
