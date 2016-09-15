@@ -1,0 +1,37 @@
+a {
+ color: #E0F084 !important;
+}
+
+body {
+  margin: 0;
+  background-color: #F6F6EA;
+}
+
+.main {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.main img {
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+h1 {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+h1, p {
+  color: #E0F084;
+  background-color: #965096;
+  margin: 0;
+  padding: 20px;
+
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+}
