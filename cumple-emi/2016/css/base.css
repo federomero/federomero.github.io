@@ -7,31 +7,36 @@ body {
   background-color: #F6F6EA;
 }
 
-.main {
-  width: 800px;
-  margin: 20px auto;
-}
-
-.main img {
-  max-width: 800px;
-  margin: 20px 0;
+img {
+  max-width: 100%;
+  margin: 0;
 }
 
 h1 {
   font-family: 'Londrina Solid', cursive;
   font-size: 80px;
   text-align: center;
+  width: 100%;
 }
 
-h1, p {
+h1, .main {
   color: #E0F084;
   background-color: #965096;
   margin: 0;
-  padding: 20px;
+  padding: 20px 0;
 
 }
 
 p {
+  width: 800px;
+  max-width: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 25px;
+  margin: auto;
+}
+
+.main {
+  width:100%;
+  text-align: center;
+  margin-top: -4px;
 }
