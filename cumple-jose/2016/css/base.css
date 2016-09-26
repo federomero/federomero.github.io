@@ -1,0 +1,43 @@
+a {
+ color: #badbca !important;
+}
+
+body {
+  margin: 0;
+  background-color: #F6F6EA;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+h1, .main {
+  color: #d4a189;
+  background-color: #002545;
+  margin: 0;
+  padding: 20px 0;
+
+}
+
+p {
+  width: 800px;
+  max-width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.main {
+  width:100%;
+  text-align: center;
+  margin-top: -4px;
+}
